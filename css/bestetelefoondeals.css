@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+.navbar {
+    z-index: 10;
+}
+.aboveTheFold {
+    position: relative;
+    top: 0px; left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: #7abcff;
+    background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%); 
+    color: #eee;
+}
+.aboveTheFold h1 {
+    color: #eee;
+    text-transform: uppercase;
+    font-size: 4em;
+}
+.aboveTheFold h2 {
+    color: #111;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.height30percent {
+    height: 30%;
+    width: 100%;
+}
+.height10percent {
+    height: 10%;
+    width: 100%;
+}
+.darkred {
+    color: darkred;
+}
+.center-block {
+  margin: 0 auto;
+
+}
+.tagimage {
+    height: 100vh;
+    background-image: url('./man.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 60%;
+
+    
+}
+.btn-bestetelefoondeals {
+    background: none;
+    border: 2px solid #eee;
+    color: #eee;
+    
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px #333;
+    
+}
+.btn-minor {
+    background: none;
+    text-transform: uppercase;
+    color: #ddd;
+    letter-spacing: 1.1;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.bottom-navigation {
+    position: absolute;
+    bottom: 48px;
+}
